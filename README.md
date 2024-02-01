@@ -33,7 +33,7 @@ npm install
 - Configuration changes in `.env`
 ```
  MONGODB_URI="mongodb://localhost:27017/"
- MONGODB_COLLECTION="todo"
+ MONGODB_DB_NAME="todo"
  SERVER_PORT=5000
 ```
 
