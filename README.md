@@ -1,8 +1,13 @@
 # To-Do List Application
+- Clone project from repository
+```
+git clone https://github.com/ashain880/todo-app.git
+```
+- Two folders available `client` & `api`
 
 ## Client - React Framework
 
-- install node modules packages
+- Install node modules packages
 ```
 npm install 
 ```
@@ -25,7 +30,7 @@ npm install
 ```
  npm run serve
 ```
-- configuration changes in `.env`
+- Configuration changes in `.env`
 ```
  MONGODB_URI="mongodb://localhost:27017/"
  MONGODB_COLLECTION="todo"
