@@ -3,11 +3,11 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-console.log(process.env.MONGODB_URI+process.env.MONGODB_COLLECTION);
+console.log(process.env.MONGODB_URI+process.env.MONGODB_DB_NAME);
 
 const connectToMongoDB = () => {
    try {
-      mongoose.connect(process.env.MONGODB_URI+process.env.MONGODB_COLLECTION, {
+      mongoose.connect(process.env.MONGODB_URI+process.env.MONGODB_DB_NAME, {
          useNewUrlParser: true,
          useUnifiedTopology: true,
       });
